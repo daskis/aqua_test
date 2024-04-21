@@ -35,7 +35,7 @@ export const Toolbar = () => {
         },
         {
             text: "Чат",
-            path: import.meta.env.VITE_CHAT_URL,
+            path: "/home",
             icon: <WechatOutlined/>
         },
         {

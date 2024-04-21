@@ -7,6 +7,7 @@ import {Loading} from "@shared/ui";
 
 export const HotelsPage = () => {
     const {data} = useGetHotels()
+
     if (data) {
         return (
             <div className={cls.wrapper}>

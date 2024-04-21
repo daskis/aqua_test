@@ -3,10 +3,10 @@ import {IHotelCard} from "@entities/hotel/lib";
 import {Rate, Typography} from "antd";
 import {HeartOutlined} from "@ant-design/icons";
 
-export const Favorite = ({img_url, rating, type, reviews, id, name}: IHotelCard) => {
+export const Favorite = ({img, rating, type, reviews, id, name}) => {
     return (
         <div className={cls.wrapper}>
-            <img className={cls.image} src={`${import.meta.env.VITE_SERVER_URL}${img_url[0]}`} alt=""/>
+            <img className={cls.image} src={`${import.meta.env.VITE_SERVER_URL}${img[0]}`} alt=""/>
             <div className={cls.info}>
                 <div className={cls.heading}>
                     <Typography.Title className={cls.title} level={3}>{name}</Typography.Title>
