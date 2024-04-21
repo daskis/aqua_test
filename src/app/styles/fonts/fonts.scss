@@ -1,0 +1,58 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url("@shared/assets/fonts/Montserrat/Montserrat-Bold.ttf") format("ttf"),
+  url("@shared/assets/fonts/Montserrat/Montserrat-Bold.woff") format("woff"),
+  url("@shared/assets/fonts/Montserrat/Montserrat-Bold.woff2") format("woff2");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url("@shared/assets/fonts/Montserrat/Montserrat-Medium.ttf") format("ttf"),
+  url("@shared/assets/fonts/Montserrat/Montserrat-Medium.woff") format("woff"),
+  url("@shared/assets/fonts/Montserrat/Montserrat-Medium.woff2") format("woff2");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url("@shared/assets/fonts/Montserrat/Montserrat-Regular.ttf") format("ttf"),
+  url("@shared/assets/fonts/Montserrat/Montserrat-Regular.woff") format("woff"),
+  url("@shared/assets/fonts/Montserrat/Montserrat-Regular.woff2") format("woff2");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url("@shared/assets/fonts/Gilroy/Gilroy-Bold.ttf") format("ttf"),
+  url("@shared/assets/fonts/Gilroy/Gilroy-Bold.woff") format("woff");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url("@shared/assets/fonts/Gilroy/Gilroy-Black.ttf") format("ttf"),
+  url("@shared/assets/fonts/Gilroy/Gilroy-Black.woff") format("woff");
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url("@shared/assets/fonts/Gilroy/Gilroy-Medium.ttf") format("ttf"),
+  url("@shared/assets/fonts/Gilroy/Gilroy-Medium.woff") format("woff");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url("@shared/assets/fonts/Gilroy/Gilroy-Regular.ttf") format("ttf"),
+  url("@shared/assets/fonts/Gilroy/Gilroy-Regular.woff") format("woff");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url("@shared/assets/fonts/Gilroy/Gilroy-Light.ttf") format("ttf"),
+  url("@shared/assets/fonts/Gilroy/Gilroy-Light.woff") format("woff");
+  font-weight: 300;
+}
