@@ -7,9 +7,9 @@ export default defineConfig({
     optimizeDeps: {
         exclude: ['typescript'],
     },
-    server: {
-        port: 80
-    },
+    // server: {
+    //     port: 80
+    // },
     esbuild: {
         jsxFactory: 'React.createElement',
         jsxFragment: 'React.Fragment',

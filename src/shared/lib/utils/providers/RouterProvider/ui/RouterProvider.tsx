@@ -1,4 +1,4 @@
-import {createBrowserRouter} from 'react-router-dom';
+import {createBrowserRouter, Navigate, redirect} from 'react-router-dom';
 import {Navbar, Toolbar} from "@widgets/ui";
 import {
     BeachesPage, FavoritesPage,
@@ -16,6 +16,10 @@ export const router = createBrowserRouter([
     {
         path: '/',
         children: [
+            {
+                index: true,
+                loader: async () => redirect('/home'),
+            },
             {
                 path: 'home',
                 element: <>
